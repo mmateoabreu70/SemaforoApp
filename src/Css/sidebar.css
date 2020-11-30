@@ -1,0 +1,44 @@
+.cal{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    margin-inline: 50px;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+
+.page{
+
+    display: flex;
+    background-image: url("https://th.bing.com/th/id/OIP.2y4k1pZUhflto-j1U2cKIAHaEK?pid=Api&rs=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cal:hover{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-inline: 50px;
+    margin-top: 20px;
+}
+/* .imagen{
+    width: 200px;
+    height: 200px;
+} */
+.imagen{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .imagen{
+        height: 200px;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }

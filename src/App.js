@@ -4,6 +4,7 @@ import ModuloRegistro from './Pages/ModuloRegistro'
 import ModuloLogin from './Pages/ModuloLogin'
 import Historial from './Pages/Historial'
 import SideBarContainer from './Components/Containers/SideBarContainer'
+import Config from './Components/Config'
 
 
 
@@ -14,6 +15,7 @@ const App = ()=>(
             <Route exact path="/registro" component={ModuloRegistro} />
             <Route exact path="/principal" component={SideBarContainer} />
             <Route exact path="/historial" component={Historial} />
+            <Route exact path="/config" component={Config} />
         </Switch>
         </BrowserRouter>
 )

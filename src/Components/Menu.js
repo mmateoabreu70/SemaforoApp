@@ -21,7 +21,7 @@ rel="stylesheet" id="bootstrap-css"/>
                 <Link to="/principal" className="nav-link">Home</Link>
             </li>
             <li className="nav-list-item">
-                <a href="#" className="nav-link">Configuraciones</a>
+                <Link to="/config" className="nav-link">Configuraciones</Link>
             </li>
             <li className="nav-list-item">
                 <a href="#" className="nav-link">Funcionalidades del semaforo</a>
@@ -30,7 +30,7 @@ rel="stylesheet" id="bootstrap-css"/>
                 <Link to="/historial" className="nav-link">Historial</Link>
             </li>
             <li className="nav-list-item">
-                <a href="#" className="nav-link">Cerrar Sesion</a>
+                <Link to="/" className="nav-link">Cerrar Sesion</Link>
             </li>
         </ul>
 

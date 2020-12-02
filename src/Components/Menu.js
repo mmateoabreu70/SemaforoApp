@@ -24,7 +24,7 @@ rel="stylesheet" id="bootstrap-css"/>
                 <Link to="/config" className="nav-link">Configuraciones</Link>
             </li>
             <li className="nav-list-item">
-                <a href="#" className="nav-link">Funcionalidades del semaforo</a>
+                <Link to="/funcion" className="nav-link">Funcionalidades del semaforo</Link>
             </li>
             <li className="nav-list-item">
                 <Link to="/historial" className="nav-link">Historial</Link>

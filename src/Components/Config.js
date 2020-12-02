@@ -56,12 +56,6 @@ const Config =()=>(
                             <div class="col-xs-1">
                                 Ver Historial
                             </div>
-                            {/* <div class="col-xs-1">
-                                Detail:
-                            </div>
-                            <div class="col-xs-1">
-                                Detail:
-                            </div> */}
                         </div>
                     </div>
                 </div>

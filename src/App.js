@@ -5,6 +5,7 @@ import ModuloLogin from './Pages/ModuloLogin'
 import Historial from './Pages/Historial'
 import SideBarContainer from './Components/Containers/SideBarContainer'
 import Config from './Components/Config'
+import Button from './Components/Button'
 
 
 
@@ -16,6 +17,7 @@ const App = ()=>(
             <Route exact path="/principal" component={SideBarContainer} />
             <Route exact path="/historial" component={Historial} />
             <Route exact path="/config" component={Config} />
+            <Route exact path="/funcion" component={Button} />
         </Switch>
         </BrowserRouter>
 )
